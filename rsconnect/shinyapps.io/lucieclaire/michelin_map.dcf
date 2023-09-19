@@ -1,0 +1,13 @@
+name: michelin_map
+title: michelin_map
+username:
+account: lucieclaire
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6405215
+bundleId: 5965298
+url: https://lucieclaire.shinyapps.io/michelin_map/
+when: 1654031412.85543
+lastSyncTime: 1654031412.85543
+asMultiple: FALSE
+asStatic: FALSE
