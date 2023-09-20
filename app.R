@@ -13,7 +13,7 @@ library(dplyr)
 library(tidyr)
 library(RColorBrewer)
 
-datos_michelin <- read.csv(file = "https://raw.githubusercontent.com/ngshiheng/michelin-my-maps/main/generated/michelin_my_maps.csv")
+datos_michelin <- read.csv(file = "michelin_my_maps.csv")
 
 datos_michelin <- datos_michelin %>% separate(col = Address, into = c('resto1', 'resto2','resto3','resto4','resto5', 'calle', 'ciudad','CP', 'Pais'),sep = ',', remove = FALSE, fill = 'left')
 michelin_espania <- datos_michelin %>% filter(Pais == " Spain", preserve = TRUE)
