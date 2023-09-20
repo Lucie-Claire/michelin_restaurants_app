@@ -16,11 +16,6 @@ The Michelin Restaurant App Finder is an R-based application that allows users t
 - *Interactive Maps*: View exact address and cuisine type by clicking on each restaurant.
 - *Colorful visualization*: Identify restaurants by price ranges according to the legend.
 
-## Future work
-
-- *Search & Discover*: Easily search restaurants by name, city, or cuisine type.
-- *Ratings & Reviews*: Read reviews from fellow food enthusiasts and see restaurant ratings.
-
 ## Installation
 
 ### Prerequisites
