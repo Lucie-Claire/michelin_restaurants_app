@@ -1,24 +1,20 @@
 # Michelin Restaurant App Finder
-![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![r](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 Find the best Michelin-starred restaurants near you, with the power of R!
 
-![App Screenshot](./path-to-screenshot.png)
+![App Screenshot]()
 
 ## Overview
 
-The Michelin Restaurant App Finder is an R-based application that allows users to search and discover Michelin-starred restaurants in various cities and regions. Whether you're a culinary enthusiast or just looking for an exceptional dining experience, our app is the perfect guide.
+The Michelin Restaurant App Finder is an R-based application that allows users to search and discover Michelin-starred restaurants in various cities and regions from Spain. Whether you're a culinary enthusiast or just looking for an exceptional dining experience, our app is the perfect guide.
 
 ## Features
 
-- *Search & Discover*: Easily search restaurants by name, city, or cuisine type.
-- *Ratings & Reviews*: Read reviews from fellow food enthusiasts and see restaurant ratings.
-- *Interactive Maps*: View restaurant locations on an interactive map.
-- *Filters*: Filter search results by the number of Michelin stars or by price range.
+- Filters: Filter search results by the number of Michelin stars
+- Interactive Maps: View exact address and cuisine type by clicking on each restaurant.
+- Colorful visualization: Identify restaurants by price ranges according to the legend.
 
 ## Installation
 
@@ -47,8 +43,39 @@ cd michelin-restaurant-finder
 
 4. Install the required R packages:
 
-R
-install.packages(c("package1", "package2", ...))
+To utilize the functions from the specified libraries in R, you need to install the corresponding packages. Here's how you can install each of them:
+
+1. `shiny`: A package to build interactive web apps straight from R.
+   ```R
+   install.packages("shiny")
+   ```
+
+2. `leaflet`: A package to create interactive web maps with the JavaScript 'Leaflet' library.
+   ```R
+   install.packages("leaflet")
+   ```
+
+3. `dplyr`: A part of the `tidyverse`, it provides a set of tools for efficiently manipulating datasets.
+   ```R
+   install.packages("dplyr")
+   ```
+
+4. `tidyr`: Also a part of the `tidyverse`, it's used for tidying data.
+   ```R
+   install.packages("tidyr")
+   ```
+
+5. `RColorBrewer`: Provides color schemes for maps and other graphics designed by Cynthia Brewer.
+   ```R
+   install.packages("RColorBrewer")
+   ```
+
+You can also combine all of these into a single command to install them all at once:
+```R
+install.packages(c("shiny", "leaflet", "dplyr", "tidyr", "RColorBrewer"))
+```
+
+Remember that you only need to install these packages once, but you'll need to load them using the `library()` function every time you start a new R session and want to use functions from these packages.
 
 
 5. Run the app:
@@ -59,7 +86,12 @@ source("path-to-app-script.R")
 
 ## Data Source
 
-The restaurant data used in this app is sourced from [Michelin Guide](https://guide.michelin.com/). All rights and credits belong to Michelin Guide and their respective contributors.
+The restaurant data used in this app is sourced from [Michelin Guide](https://guide.michelin.com/) and saved as the CSV file named `michelin_my_maps.csv`. All rights and credits belong to Michelin Guide and their respective contributors.
+
+## Future work
+
+- Search & Discover: Easily search restaurants by name, city, or cuisine type.
+- Ratings & Reviews: Read reviews from fellow food enthusiasts and see restaurant ratings.
 
 ## Contributing
 
