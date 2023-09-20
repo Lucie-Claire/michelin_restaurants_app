@@ -12,9 +12,9 @@ The Michelin Restaurant App Finder is an R-based application that allows users t
 
 ## Features
 
-- Filters: Filter search results by the number of Michelin stars
-- Interactive Maps: View exact address and cuisine type by clicking on each restaurant.
-- Colorful visualization: Identify restaurants by price ranges according to the legend.
+- *Filters*: Filter search results by the number of Michelin stars
+- *Interactive Maps*: View exact address and cuisine type by clicking on each restaurant.
+- *Colorful visualization*: Identify restaurants by price ranges according to the legend.
 
 ## Installation
 
