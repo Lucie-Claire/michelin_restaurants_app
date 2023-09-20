@@ -14,14 +14,18 @@ Find the best Michelin-starred restaurants near you, with the power of R!
 
 ## Overview
 
-The Michelin Restaurant App Finder is an R-based application that allows users to search and discover Michelin-starred restaurants in various cities and regions. Whether you're a culinary enthusiast or just looking for an exceptional dining experience, our app is the perfect guide.
+The Michelin Restaurant App Finder is an R-based application that allows users to search and discover Michelin-starred restaurants in various cities and regions from Spain. Whether you're a culinary enthusiast or just looking for an exceptional dining experience, our app is the perfect guide.
 
 ## Features
 
+- *Filters*: Filter search results by the number of Michelin stars
+- *Interactive Maps*: View exact address and cuisine type by clicking on each restaurant.
+- *Colorful visualization*: Identify restaurants by price ranges according to the legend.
+
+## Future work
+
 - *Search & Discover*: Easily search restaurants by name, city, or cuisine type.
 - *Ratings & Reviews*: Read reviews from fellow food enthusiasts and see restaurant ratings.
-- *Interactive Maps*: View restaurant locations on an interactive map.
-- *Filters*: Filter search results by the number of Michelin stars or by price range.
 
 ## Installation
 
