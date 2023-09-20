@@ -1,6 +1,3 @@
-# michelin_restaurants_app
-MichelinMap: An R-based geospatial application that allows users to seamlessly browse Michelin restaurants on a map. Features intuitive filters for price and star rating, providing a tailored dining exploration experience.
-
 # Michelin Restaurant App Finder
 ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
